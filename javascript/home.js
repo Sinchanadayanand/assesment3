@@ -70,7 +70,7 @@ function displayCalendar(){
         htmlContent += "</tr><tr>";
     }
     if (counter == day){
-        htmlContent +="<td class='dayNow'  onMouseOver='this.style.background=\"#FF0000\"; this.style.color=\"#FFFFFF\"' "+
+        htmlContent +="<td class='dayNow'  onMouseOver='this.style.background=\"#FFF000\"; this.style.color=\"#FFFFFF\"' "+
         "onMouseOut='this.style.background=\"#FFFFFF\"; this.style.color=\"#00FF00\"'>"+counter+"</td>";
     }else{
         htmlContent +="<td class='monthNow' onMouseOver='this.style.background=\"#FF0000\"'"+
